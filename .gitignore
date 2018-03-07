@@ -64,3 +64,4 @@ fastlane/test_output
 */.DS_Store
 Concentration/Concentration/Concentration.xcodeproj/project.xcworkspace/xcuserdata/joshua.xcuserdatad/UserInterfaceState.xcuserstate
 *.xcuserstate
+*.xcuserstate
