@@ -1,8 +1,8 @@
 //
 //  Card.swift
-//  FlipCard
+//  Concentration
 //
-//  Created by Joshua on 2018/3/6.
+//  Created by Joshua on 2018/3/7.
 //  Copyright © 2018年 Joshua. All rights reserved.
 //
 

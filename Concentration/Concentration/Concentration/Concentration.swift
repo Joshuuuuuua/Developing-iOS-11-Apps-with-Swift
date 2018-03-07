@@ -1,8 +1,8 @@
 //
 //  Concentration.swift
-//  FlipCard
+//  Concentration
 //
-//  Created by Joshua on 2018/3/6.
+//  Created by Joshua on 2018/3/7.
 //  Copyright © 2018年 Joshua. All rights reserved.
 //
 
@@ -75,5 +75,17 @@ class Concentration {
         method()
         let endTime = CFAbsoluteTimeGetCurrent()
         debugPrint("Cost Time : \((endTime - startTime)*1000)")
+    }
+}
+extension Array {
+    public mutating func shuffleUseSort() -> Array {
+        var list = self
+        for index in 0..<list.count {
+            let newIndex = Int(arc4random_uniform(UInt32(list.count-index))) + index
+            if index != newIndex {
+                list.swapAt(index, newIndex)
+            }
+        }
+        return list
     }
 }

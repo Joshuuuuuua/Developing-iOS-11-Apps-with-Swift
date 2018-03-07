@@ -1,17 +1,17 @@
 //
 //  ViewController.swift
-//  FlipCard
+//  Concentration
 //
-//  Created by Joshua on 2018/3/5.
+//  Created by Joshua on 2018/3/7.
 //  Copyright © 2018年 Joshua. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    
-    private lazy var game = Concentration(numberOfPairsOfCards: numberOfPairOfCards)
 
+    private lazy var game = Concentration(numberOfPairsOfCards: numberOfPairOfCards)
+    
     var numberOfPairOfCards: Int {
         return cardButtons.count/2
     }
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     }
     
     private func updateViewFromModel() {
-         for index in cardButtons.indices {
+        for index in cardButtons.indices {
             let button = cardButtons[index]
             let card = game.cards[index]
             if card.isFaceUp {
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
                 button.setTitle("", for: UIControlState.normal)
                 button.backgroundColor = card.isMatched ? #colorLiteral(red: 1, green: 0.598092258, blue: 0.3952965736, alpha: 0) : #colorLiteral(red: 1, green: 0.598092258, blue: 0.3952965736, alpha: 1)
             }
-         }
+        }
     }
     
     private var emojiChoices = ["👻","🎃","👾","🤖","💩","💀","🙀","👽"]
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         }
         return emoji[card.identifier] ?? "?"
     }
-
+    
 }
 
 extension Int {
@@ -81,15 +81,3 @@ extension Int {
     }
 }
 
-extension Array {
-    public mutating func shuffleUseSort() -> Array {
-        var list = self
-        for index in 0..<list.count {
-            let newIndex = Int(arc4random_uniform(UInt32(list.count-index))) + index
-            if index != newIndex {
-                list.swapAt(index, newIndex)
-            }
-        }
-        return list
-    }
-}

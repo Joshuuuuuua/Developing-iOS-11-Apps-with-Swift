@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		420AC295204EB664005487A9 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420AC294204EB664005487A9 /* Concentration.swift */; };
-		420AC297204EB684005487A9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420AC296204EB684005487A9 /* Card.swift */; };
-		42D43F09204D8150006EEF75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D43F08204D8150006EEF75 /* AppDelegate.swift */; };
-		42D43F0B204D8150006EEF75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D43F0A204D8150006EEF75 /* ViewController.swift */; };
-		42D43F0E204D8150006EEF75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D43F0C204D8150006EEF75 /* Main.storyboard */; };
-		42D43F10204D8150006EEF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D43F0F204D8150006EEF75 /* Assets.xcassets */; };
-		42D43F13204D8150006EEF75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D43F11204D8150006EEF75 /* LaunchScreen.storyboard */; };
+		42E06E47204FDCE000E65754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E06E46204FDCE000E65754 /* AppDelegate.swift */; };
+		42E06E49204FDCE000E65754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E06E48204FDCE000E65754 /* ViewController.swift */; };
+		42E06E4C204FDCE000E65754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E06E4A204FDCE000E65754 /* Main.storyboard */; };
+		42E06E4E204FDCE000E65754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E06E4D204FDCE000E65754 /* Assets.xcassets */; };
+		42E06E51204FDCE000E65754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E06E4F204FDCE000E65754 /* LaunchScreen.storyboard */; };
+		42E06E5A204FDDBA00E65754 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E06E59204FDDBA00E65754 /* Concentration.swift */; };
+		42E06E5C204FDDC100E65754 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E06E5B204FDDC100E65754 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		420AC294204EB664005487A9 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
-		420AC296204EB684005487A9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		42D43F05204D8150006EEF75 /* FlipCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42D43F08204D8150006EEF75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42D43F0A204D8150006EEF75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		42D43F0D204D8150006EEF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42D43F0F204D8150006EEF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42D43F12204D8150006EEF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		42D43F14204D8150006EEF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E06E43204FDCE000E65754 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E06E46204FDCE000E65754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42E06E48204FDCE000E65754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42E06E4B204FDCE000E65754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42E06E4D204FDCE000E65754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42E06E50204FDCE000E65754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42E06E52204FDCE000E65754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E06E59204FDDBA00E65754 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		42E06E5B204FDDC100E65754 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42D43F02204D8150006EEF75 /* Frameworks */ = {
+		42E06E40204FDCE000E65754 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,82 +39,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42D43EFC204D8150006EEF75 = {
+		42E06E3A204FDCE000E65754 = {
 			isa = PBXGroup;
 			children = (
-				42D43F07204D8150006EEF75 /* FlipCard */,
-				42D43F06204D8150006EEF75 /* Products */,
+				42E06E45204FDCE000E65754 /* Concentration */,
+				42E06E44204FDCE000E65754 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		42D43F06204D8150006EEF75 /* Products */ = {
+		42E06E44204FDCE000E65754 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42D43F05204D8150006EEF75 /* FlipCard.app */,
+				42E06E43204FDCE000E65754 /* Concentration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42D43F07204D8150006EEF75 /* FlipCard */ = {
+		42E06E45204FDCE000E65754 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				42D43F08204D8150006EEF75 /* AppDelegate.swift */,
-				42D43F0A204D8150006EEF75 /* ViewController.swift */,
-				420AC294204EB664005487A9 /* Concentration.swift */,
-				420AC296204EB684005487A9 /* Card.swift */,
-				42D43F1A204D815C006EEF75 /* Supporting FIles */,
-				42D43F14204D8150006EEF75 /* Info.plist */,
+				42E06E46204FDCE000E65754 /* AppDelegate.swift */,
+				42E06E48204FDCE000E65754 /* ViewController.swift */,
+				42E06E59204FDDBA00E65754 /* Concentration.swift */,
+				42E06E5B204FDDC100E65754 /* Card.swift */,
+				42E06E58204FDCF800E65754 /* Supporting Files */,
+				42E06E52204FDCE000E65754 /* Info.plist */,
 			);
-			path = FlipCard;
+			path = Concentration;
 			sourceTree = "<group>";
 		};
-		42D43F1A204D815C006EEF75 /* Supporting FIles */ = {
+		42E06E58204FDCF800E65754 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				42D43F0C204D8150006EEF75 /* Main.storyboard */,
-				42D43F0F204D8150006EEF75 /* Assets.xcassets */,
-				42D43F11204D8150006EEF75 /* LaunchScreen.storyboard */,
+				42E06E4A204FDCE000E65754 /* Main.storyboard */,
+				42E06E4D204FDCE000E65754 /* Assets.xcassets */,
+				42E06E4F204FDCE000E65754 /* LaunchScreen.storyboard */,
 			);
-			path = "Supporting FIles";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42D43F04204D8150006EEF75 /* FlipCard */ = {
+		42E06E42204FDCE000E65754 /* Concentration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42D43F17204D8150006EEF75 /* Build configuration list for PBXNativeTarget "FlipCard" */;
+			buildConfigurationList = 42E06E55204FDCE000E65754 /* Build configuration list for PBXNativeTarget "Concentration" */;
 			buildPhases = (
-				42D43F01204D8150006EEF75 /* Sources */,
-				42D43F02204D8150006EEF75 /* Frameworks */,
-				42D43F03204D8150006EEF75 /* Resources */,
+				42E06E3F204FDCE000E65754 /* Sources */,
+				42E06E40204FDCE000E65754 /* Frameworks */,
+				42E06E41204FDCE000E65754 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FlipCard;
-			productName = FlipCard;
-			productReference = 42D43F05204D8150006EEF75 /* FlipCard.app */;
+			name = Concentration;
+			productName = Concentration;
+			productReference = 42E06E43204FDCE000E65754 /* Concentration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42D43EFD204D8150006EEF75 /* Project object */ = {
+		42E06E3B204FDCE000E65754 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Joshua;
 				TargetAttributes = {
-					42D43F04204D8150006EEF75 = {
+					42E06E42204FDCE000E65754 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 42D43F00204D8150006EEF75 /* Build configuration list for PBXProject "FlipCard" */;
+			buildConfigurationList = 42E06E3E204FDCE000E65754 /* Build configuration list for PBXProject "Concentration" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,56 +122,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 42D43EFC204D8150006EEF75;
-			productRefGroup = 42D43F06204D8150006EEF75 /* Products */;
+			mainGroup = 42E06E3A204FDCE000E65754;
+			productRefGroup = 42E06E44204FDCE000E65754 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42D43F04204D8150006EEF75 /* FlipCard */,
+				42E06E42204FDCE000E65754 /* Concentration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42D43F03204D8150006EEF75 /* Resources */ = {
+		42E06E41204FDCE000E65754 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D43F13204D8150006EEF75 /* LaunchScreen.storyboard in Resources */,
-				42D43F10204D8150006EEF75 /* Assets.xcassets in Resources */,
-				42D43F0E204D8150006EEF75 /* Main.storyboard in Resources */,
+				42E06E51204FDCE000E65754 /* LaunchScreen.storyboard in Resources */,
+				42E06E4E204FDCE000E65754 /* Assets.xcassets in Resources */,
+				42E06E4C204FDCE000E65754 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42D43F01204D8150006EEF75 /* Sources */ = {
+		42E06E3F204FDCE000E65754 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D43F0B204D8150006EEF75 /* ViewController.swift in Sources */,
-				42D43F09204D8150006EEF75 /* AppDelegate.swift in Sources */,
-				420AC295204EB664005487A9 /* Concentration.swift in Sources */,
-				420AC297204EB684005487A9 /* Card.swift in Sources */,
+				42E06E49204FDCE000E65754 /* ViewController.swift in Sources */,
+				42E06E47204FDCE000E65754 /* AppDelegate.swift in Sources */,
+				42E06E5A204FDDBA00E65754 /* Concentration.swift in Sources */,
+				42E06E5C204FDDC100E65754 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		42D43F0C204D8150006EEF75 /* Main.storyboard */ = {
+		42E06E4A204FDCE000E65754 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				42D43F0D204D8150006EEF75 /* Base */,
+				42E06E4B204FDCE000E65754 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		42D43F11204D8150006EEF75 /* LaunchScreen.storyboard */ = {
+		42E06E4F204FDCE000E65754 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				42D43F12204D8150006EEF75 /* Base */,
+				42E06E50204FDCE000E65754 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		42D43F15204D8150006EEF75 /* Debug */ = {
+		42E06E53204FDCE000E65754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		42D43F16204D8150006EEF75 /* Release */ = {
+		42E06E54204FDCE000E65754 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,30 +286,30 @@
 			};
 			name = Release;
 		};
-		42D43F18204D8150006EEF75 /* Debug */ = {
+		42E06E56204FDCE000E65754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZV67VUHT6;
-				INFOPLIST_FILE = FlipCard/Info.plist;
+				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Joshua.FlipCard;
+				PRODUCT_BUNDLE_IDENTIFIER = Joshua.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		42D43F19204D8150006EEF75 /* Release */ = {
+		42E06E57204FDCE000E65754 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZV67VUHT6;
-				INFOPLIST_FILE = FlipCard/Info.plist;
+				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Joshua.FlipCard;
+				PRODUCT_BUNDLE_IDENTIFIER = Joshua.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42D43F00204D8150006EEF75 /* Build configuration list for PBXProject "FlipCard" */ = {
+		42E06E3E204FDCE000E65754 /* Build configuration list for PBXProject "Concentration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42D43F15204D8150006EEF75 /* Debug */,
-				42D43F16204D8150006EEF75 /* Release */,
+				42E06E53204FDCE000E65754 /* Debug */,
+				42E06E54204FDCE000E65754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42D43F17204D8150006EEF75 /* Build configuration list for PBXNativeTarget "FlipCard" */ = {
+		42E06E55204FDCE000E65754 /* Build configuration list for PBXNativeTarget "Concentration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42D43F18204D8150006EEF75 /* Debug */,
-				42D43F19204D8150006EEF75 /* Release */,
+				42E06E56204FDCE000E65754 /* Debug */,
+				42E06E57204FDCE000E65754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 42D43EFD204D8150006EEF75 /* Project object */;
+	rootObject = 42E06E3B204FDCE000E65754 /* Project object */;
 }
