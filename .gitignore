@@ -61,7 +61,5 @@ fastlane/test_output
 
 
 # End of https://www.gitignore.io/api/swift
-*/.DS_Store
-Concentration/Concentration/Concentration.xcodeproj/project.xcworkspace/xcuserdata/joshua.xcuserdatad/UserInterfaceState.xcuserstate
-*.xcuserstate
+*.DS_Store
 *.xcuserstate
