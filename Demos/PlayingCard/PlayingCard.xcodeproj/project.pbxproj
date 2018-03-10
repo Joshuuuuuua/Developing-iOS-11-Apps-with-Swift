@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42111D872050FACA00192B93 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42111D862050FACA00192B93 /* PlayingCardView.swift */; };
+		42AC80DF20540DD000F06992 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC80DE20540DD000F06992 /* CardBehavior.swift */; };
 		42D6D3A12050DD8E00324C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6D3A02050DD8E00324C76 /* AppDelegate.swift */; };
 		42D6D3A32050DD8E00324C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6D3A22050DD8E00324C76 /* ViewController.swift */; };
 		42D6D3A62050DD8E00324C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D6D3A42050DD8E00324C76 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		42111D862050FACA00192B93 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		42AC80DE20540DD000F06992 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
 		42D6D39D2050DD8E00324C76 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D6D3A02050DD8E00324C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42D6D3A22050DD8E00324C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				42111D862050FACA00192B93 /* PlayingCardView.swift */,
 				42D6D3B52050E0B900324C76 /* PlayingCardDeck.swift */,
 				42D6D3A22050DD8E00324C76 /* ViewController.swift */,
+				42AC80DE20540DD000F06992 /* CardBehavior.swift */,
 				42D6D3A42050DD8E00324C76 /* Main.storyboard */,
 				42D6D3A72050DD8E00324C76 /* Assets.xcassets */,
 				42D6D3B22050DDBE00324C76 /* Supporting Files */,
@@ -158,6 +161,7 @@
 				42D6D3B42050DDD900324C76 /* Playingcard.swift in Sources */,
 				42111D872050FACA00192B93 /* PlayingCardView.swift in Sources */,
 				42D6D3A12050DD8E00324C76 /* AppDelegate.swift in Sources */,
+				42AC80DF20540DD000F06992 /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
