@@ -18,11 +18,8 @@ class PlayingCardView: UIView {
     @IBInspectable
     var isFaceUp: Bool = true { didSet { updateView()}}
     
-    var faceCardScale: CGFloat = SizeRatio.faceCardImageSizeToBoundsSize {
-        didSet {
-            setNeedsDisplay()
-        }
-    }
+    var faceCardScale: CGFloat = SizeRatio.faceCardImageSizeToBoundsSize { didSet { setNeedsDisplay() } }
+    
     
     @objc func adjustFaceCardScale(byHandlingGestureRecognizedBy recognizer: UIPinchGestureRecognizer) {
         switch recognizer.state {
@@ -33,6 +30,9 @@ class PlayingCardView: UIView {
         }
     }
     
+    ///
+    /// update the view with setNeedsDisplay() & setNeedsLayout()
+    ///
     private func updateView() {
         setNeedsDisplay()
         setNeedsLayout()
@@ -53,13 +53,22 @@ class PlayingCardView: UIView {
     private lazy var upperLeftCornerLabel = createCornerLabel()
     private lazy var lowerRightCornerLabel = createCornerLabel()
     
+    
+    ///
+    /// create the corner label
+    ///
     private func createCornerLabel() -> UILabel {
         let label = UILabel()
-        label.numberOfLines = 0 // no-limit
+        
+        // zero means no limits
+        label.numberOfLines = 0
         addSubview(label)
         return label
     }
     
+    ///
+    /// configure the properties of the corner label
+    ///
     private func configureCornerLabel(_ label: UILabel) {
         label.attributedText = cornerString
         label.frame.size = CGSize.zero
