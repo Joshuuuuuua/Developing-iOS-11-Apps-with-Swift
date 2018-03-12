@@ -52,12 +52,12 @@ class VCLLoggingViewController: UIViewController {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        logVCL("init(Coder:) - create in code")
+        logVCL("init(Coder:) - create via InterfaceBuilder")
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        logVCL("init(nibName:bundle: - create via InterfaceBuilder")
+        logVCL("init(nibName:bundle: - create in code")
     }
     
     deinit {

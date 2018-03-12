@@ -64,12 +64,12 @@
 		42E06E45204FDCE000E65754 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				42E06E46204FDCE000E65754 /* AppDelegate.swift */,
 				42E06E48204FDCE000E65754 /* ConcentrationViewController.swift */,
 				4235524E2053769300C50D96 /* ConcentrationThemeChooserViewController.swift */,
-				4292AF372056448100179E96 /* VCLLoggingViewController.swift */,
 				42E06E59204FDDBA00E65754 /* Concentration.swift */,
 				42E06E5B204FDDC100E65754 /* Card.swift */,
+				4292AF372056448100179E96 /* VCLLoggingViewController.swift */,
+				42E06E4A204FDCE000E65754 /* Main.storyboard */,
 				42E06E58204FDCF800E65754 /* Supporting Files */,
 				42E06E52204FDCE000E65754 /* Info.plist */,
 			);
@@ -79,7 +79,7 @@
 		42E06E58204FDCF800E65754 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				42E06E4A204FDCE000E65754 /* Main.storyboard */,
+				42E06E46204FDCE000E65754 /* AppDelegate.swift */,
 				42E06E4D204FDCE000E65754 /* Assets.xcassets */,
 				42E06E4F204FDCE000E65754 /* LaunchScreen.storyboard */,
 				4235525020537F4C00C50D96 /* Misc.swift */,
