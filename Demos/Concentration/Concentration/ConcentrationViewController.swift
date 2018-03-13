@@ -8,16 +8,16 @@
 
 import UIKit
 
-class ConcentrationViewController: VCLLoggingViewController {
+class ConcentrationViewController: UIViewController {
     
-    override var vclLoggingName: String {
-        return "Game"
-    }
+//    override var vclLoggingName: String {
+//        return "Game"
+//    }
 
     private lazy var game = Concentration(numberOfPairsOfCards: numberOfPairOfCards)
     
     var numberOfPairOfCards: Int {
-        return cardButtons.count/2
+        return visibleCardButtons.count/2
     }
     
     private var flipCounts: Int = 0 {
@@ -43,6 +43,10 @@ class ConcentrationViewController: VCLLoggingViewController {
     
     @IBOutlet private var cardButtons: [UIButton]!
     
+    private var visibleCardButtons: [UIButton]! {
+        return cardButtons?.filter { !$0.superview!.isHidden }
+    }
+    
     @IBAction private func shuffleTheCards(_ sender: UIButton) {
         game.startOver()
         flipCounts = 0
@@ -51,7 +55,7 @@ class ConcentrationViewController: VCLLoggingViewController {
     
     @IBAction private func touchCard(_ sender: UIButton) {
         flipCounts += 1
-        if let cardNumber = cardButtons.index(of: sender) {
+        if let cardNumber = visibleCardButtons.index(of: sender) {
             game.chooseCard(at: cardNumber)
             updateViewFromModel()
         } else {
@@ -59,10 +63,15 @@ class ConcentrationViewController: VCLLoggingViewController {
         }
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        updateViewFromModel()
+    }
+    
     private func updateViewFromModel() {
-        guard cardButtons != nil else { return }
-        for index in cardButtons.indices {
-            let button = cardButtons[index]
+        guard visibleCardButtons != nil else { return }
+        for index in visibleCardButtons.indices {
+            let button = visibleCardButtons[index]
             let card = game.cards[index]
             if card.isFaceUp {
                 button.setTitle(emoji(for: card), for: UIControlState.normal)
