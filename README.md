@@ -11,6 +11,10 @@ Stanford 公开课 学习记录   *(CS193p fall of 2017)*
 **02 : [PlayingCard](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/PlayingCard/PlayingCard)**
 
 
-**02 : [Cassini](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/Cassini/Cassini)**
+**03 : [Cassini](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/Cassini/Cassini)**
+
+
+**04 : [EmojiArt](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/EmojiArt/EmojiArt)**
+
 
 
