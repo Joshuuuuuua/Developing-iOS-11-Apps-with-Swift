@@ -6,11 +6,25 @@ Stanford 公开课 学习记录   *(CS193p fall of 2017)*
 ## Demo
 
 **01 : [Concentration](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/Concentration/Concentration)**  
+    - MVC  
+    - ViewController Lifecyle  
+    - segue 
+    - MultiTouch
 
+**02 : [PlayingCard](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/PlayingCard/PlayingCard)**  
+    - Animation  
+    - MultiTouch
+    - Drawing
+    - AutoLayout
 
-**02 : [PlayingCard](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/PlayingCard/PlayingCard)**
+**03 : [Cassini](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/Cassini/Cassini)**  
+    - Multithreading
 
+**04 : [EmojiArtOld]()**  
+    - Drag and Drop  
+    - TableVIew, CollectionVIew, ScrollView, TextField
 
-**02 : [Cassini](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/Cassini/Cassini)**
+**05 : [EmojiArt]()**  
+    - Persistence and Documents
 
 
