@@ -9,7 +9,6 @@ Stanford 公开课 学习记录   *(CS193p fall of 2017)*
 * MVC  
 * ViewController Lifecyle  
 * segue 
-* MultiTouch
 
 **02 : [PlayingCard](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/PlayingCard/PlayingCard)**  
 * Animation  
