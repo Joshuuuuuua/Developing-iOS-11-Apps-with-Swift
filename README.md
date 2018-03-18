@@ -20,11 +20,10 @@ Stanford 公开课 学习记录   *(CS193p fall of 2017)*
 **03 : [Cassini](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/Cassini/Cassini)**  
 * Multithreading
 
-**04 : [EmojiArtOld]()**  
+**04 : [EmojiArtOld](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/EmojiArtOld/EmojiArt)**  
 * Drag and Drop  
 * TableVIew, CollectionVIew, ScrollView, TextField
 
 **05 : [EmojiArt]()**  
 * Persistence and Documents
-
 
