@@ -2,8 +2,8 @@
 //  EmojiArtViewGestures.swift
 //  EmojiArt
 //
-//  Created by Ruben on 1/13/18.
-//  Copyright © 2018 Ruben. All rights reserved.
+//  Created by Joshua on 2018/3/14.
+//  Copyright © 2018年 Joshua. All rights reserved.
 //
 
 import UIKit

@@ -11,6 +11,8 @@ import UIKit
 @IBDesignable
 class PlayingCardView: UIView {
     
+    // MARK: - StroyBoard
+    
     @IBInspectable
     var rank: Int = 11 { didSet { updateView()}}
     @IBInspectable
@@ -20,6 +22,7 @@ class PlayingCardView: UIView {
     
     var faceCardScale: CGFloat = SizeRatio.faceCardImageSizeToBoundsSize { didSet { setNeedsDisplay() } }
     
+    // MARK: - Gesture
     
     @objc func adjustFaceCardScale(byHandlingGestureRecognizedBy recognizer: UIPinchGestureRecognizer) {
         switch recognizer.state {
@@ -30,13 +33,7 @@ class PlayingCardView: UIView {
         }
     }
     
-    ///
-    /// update the view with setNeedsDisplay() & setNeedsLayout()
-    ///
-    private func updateView() {
-        setNeedsDisplay()
-        setNeedsLayout()
-    }
+    // MARK: - Centered Attribute String
     
     private func centeredAttributedString(_ string: String, fontSize: CGFloat) -> NSAttributedString {
         var font = UIFont.preferredFont(forTextStyle: .body).withSize(fontSize)
@@ -46,6 +43,8 @@ class PlayingCardView: UIView {
         return NSAttributedString(string: string, attributes: [.paragraphStyle: paragraphStyle, .font: font])
     }
     
+    // MARK: - Corner Label
+    
     private var cornerString: NSAttributedString {
         return centeredAttributedString(rankString+"\n"+suit, fontSize: cornerFontSize)
     }
@@ -53,10 +52,6 @@ class PlayingCardView: UIView {
     private lazy var upperLeftCornerLabel = createCornerLabel()
     private lazy var lowerRightCornerLabel = createCornerLabel()
     
-    
-    ///
-    /// create the corner label
-    ///
     private func createCornerLabel() -> UILabel {
         let label = UILabel()
         
@@ -65,15 +60,19 @@ class PlayingCardView: UIView {
         addSubview(label)
         return label
     }
-    
-    ///
-    /// configure the properties of the corner label
-    ///
+
     private func configureCornerLabel(_ label: UILabel) {
         label.attributedText = cornerString
         label.frame.size = CGSize.zero
         label.sizeToFit()
         label.isHidden = !isFaceUp
+    }
+    
+    // MARK: - Update View
+    
+    private func updateView() {
+        setNeedsDisplay()
+        setNeedsLayout()
     }
     
     // Called when the iOS interface environment changes.
@@ -93,6 +92,8 @@ class PlayingCardView: UIView {
             .offsetBy(dx: -cornerOffset, dy: -cornerOffset)
             .offsetBy(dx: -lowerRightCornerLabel.frame.size.width, dy: -lowerRightCornerLabel.frame.size.height)
     }
+    
+    // MARK: - Draw
     
     private func drawPips()
     {
@@ -155,6 +156,8 @@ class PlayingCardView: UIView {
     }
     
 }
+
+// MARK: - Extensions
 
 extension PlayingCardView {
     private struct SizeRatio {

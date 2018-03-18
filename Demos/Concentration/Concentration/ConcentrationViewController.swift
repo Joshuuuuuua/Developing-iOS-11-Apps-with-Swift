@@ -10,15 +10,29 @@ import UIKit
 
 class ConcentrationViewController: UIViewController {
     
-//    override var vclLoggingName: String {
-//        return "Game"
-//    }
-
+    /* ViewController Life Cycle
+    override var vclLoggingName: String {
+        return "Game"
+    }
+    */
+    
+    // Theme
+    var theme: String? {
+        didSet {
+            emojiChoices = theme ?? ""
+            emoji = [:]
+            updateViewFromModel()
+        }
+    }
+    
+    // init the game
     private lazy var game = Concentration(numberOfPairsOfCards: numberOfPairOfCards)
     
     var numberOfPairOfCards: Int {
         return visibleCardButtons.count/2
     }
+    
+    // MARK: - Flip Count Label
     
     private var flipCounts: Int = 0 {
         didSet {
@@ -40,6 +54,8 @@ class ConcentrationViewController: UIViewController {
             updateFlipCountLabel()
         }
     }
+    
+    // MARK: - Card Buttons
     
     @IBOutlet private var cardButtons: [UIButton]!
     
@@ -63,6 +79,8 @@ class ConcentrationViewController: UIViewController {
         }
     }
     
+    // MARK: - UpdateView
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         updateViewFromModel()
@@ -83,13 +101,7 @@ class ConcentrationViewController: UIViewController {
         }
     }
     
-    var theme: String? {
-        didSet {
-            emojiChoices = theme ?? ""
-            emoji = [:]
-            updateViewFromModel()
-        }
-    }
+    // MARK: - Emoji
     
     // private var emojiChoices = ["👻","🎃","👾","🤖","💩","💀","🙀","👽"]
     private var emojiChoices = "👻🎃👾🤖💩💀🙀👽"
@@ -106,6 +118,8 @@ class ConcentrationViewController: UIViewController {
     }
     
 }
+
+// MARK: - extensions
 
 extension Int {
     var arc4random: Int {

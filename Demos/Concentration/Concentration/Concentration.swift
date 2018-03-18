@@ -78,6 +78,8 @@ class Concentration {
     }
 }
 
+// MARK: - Extension
+
 extension Collection {
     var oneAndOnly: Element? {
         return count == 1 ? first : nil
