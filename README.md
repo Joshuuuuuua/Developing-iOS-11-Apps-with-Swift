@@ -24,6 +24,6 @@ Stanford 公开课 学习记录   *(CS193p fall of 2017)*
 * Drag and Drop  
 * TableVIew, CollectionVIew, ScrollView, TextField
 
-**05 : [EmojiArt]()**  
+**05 : [EmojiArt](https://github.com/Joshuuuuuua/Developing-iOS-11-Apps-with-Swift/tree/master/Demos/EmojiArt/EmojiArt)**  
 * Persistence and Documents
 
